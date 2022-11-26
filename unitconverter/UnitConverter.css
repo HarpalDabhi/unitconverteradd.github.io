@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/08/01/34/background-7577472_1280.jpg) !important;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color: white;
+    margin: 1rem;
+    background-color: brown;
+
+}
+
+.head input{
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid red;
+    padding: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.card-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid palevioletred;
+    margin: 1rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    width: 80vw;
+    background-color: chocolate;
+}
+
+.unit-para,.para{
+    /* border: 1px solid red; */
+    border: none;
+    padding: 1rem;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    font-size: 1.6rem;
+    border-radius: 4px;
+    background-color: rgb(76, 12, 12);
+    color: aliceblue;
+}
+
+.card-part i{
+    font-size: 1.5rem;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border: 1px solid rgba(248, 58, 58, 0.651); */
+    border: none;
+    width: 20vw;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    border-radius: 5%;
+    margin: 10px;
+    font-style:normal;
+}

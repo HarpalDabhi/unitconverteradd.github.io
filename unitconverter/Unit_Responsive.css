@@ -1,0 +1,16 @@
+@media (min-width: 0px) and (max-width:900px) {
+    .card-part {
+        margin: 1rem;
+        padding: 0.7rem;
+        border-radius: 10px;
+        width: 80vw;
+        flex-direction: column;
+      }
+      .unit-para, .para {
+        width: 95%;
+      }
+      .card-part i {
+        font-style: normal;
+        width: 95%;
+      }
+}
